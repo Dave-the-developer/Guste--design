@@ -296,22 +296,15 @@ a:hover {
 }
 
 .news-section {
+  background-image: url(./media/pexels-alena-koval-886521\ \(1\).jpg);
   border: 2px solid black;
-  background-image: url(./media/pexels-alena-koval-886521\ \(1\).jpg)
-  width: 1327px;
-  height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 10px;
-} 
-
-.news-section img {
-  margin-top: 10px;
+  margin-top: 5px;
+  height: 100%;
 }
 
 .news-content {
   position: relative;
-  top: 5px;
+  margin-bottom: 20px;
   padding-top: 100px;
   margin-left: 70px;
   font-size: larger;
@@ -373,6 +366,7 @@ a:hover {
   margin: 10px 10px;
   padding-left: 500px;
 }
+
 
 .tag {
   margin-left: 30px;
@@ -473,5 +467,51 @@ a:hover {
   .img4{
     margin-top: 5px;
     margin-left: 0px;
+  }
+  .news-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .shipping-section{
+    border: 2px solid black;
+    margin: 0px;
+    align-content: center;
+  }
+  .footer-icon{
+    border: 2px solid black;
+    margin: 3px 0px;
+  }
+  .f1{
+    flex: 1;
+  }
+  .f2{
+    flex: 1;
+  }
+  .f3{
+    flex: 1;
+  }
+  .f4{
+    flex: 1;
+  }
+  .f5{
+    flex: 1;
+  }
+  .footer-info{
+    flex-direction: column;
+    padding-left: 0px;
+    margin: 3px 0px;
+  }
+  .cbm{
+    border: 2px solid black;
+  }
+  .tag{
+    border: 2px solid black;
+    margin: 3px 0px;
   }
 }
